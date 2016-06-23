@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "IMDB Quick Search",
-  "description": "This extension shows related IMDB pages in search suggestions",
+  "description": "Quickly find IMDB pages using suggestions in the search box",
   "version": "1.0",
   "omnibox": { "keyword" : "imdb"},
   "icons" : {
