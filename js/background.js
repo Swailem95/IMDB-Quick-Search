@@ -58,9 +58,6 @@ chrome.omnibox.onInputEntered.addListener(function(text){
   else{
     chrome.tabs.update({url: text});
   }
-
-
-
 });
 
 chrome.omnibox.onInputCancelled.addListener(function(){
