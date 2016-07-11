@@ -66,11 +66,7 @@ chrome.omnibox.onInputCancelled.addListener(function(){
 
 //removes empty spaces after text to show more accurate suggestions
 function modifySearch(text){
-
-  while(text.charAt(text.length-1) == ' '){
-    text = text.substring(0, text.length-1);
-  }
-
-  return text.split(' ').join('+');
+  
+  return text.trim().split(' ').join('+');
 
 }
