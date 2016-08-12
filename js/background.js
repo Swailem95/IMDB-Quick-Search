@@ -1,7 +1,6 @@
 chrome.omnibox.onInputChanged.addListener(function(text, suggest){
 
   var searchTerm = modifySearch(text);
-  console.log(searchTerm);
   var omdbAPI = 'http://www.omdbapi.com/?s=' + searchTerm;
 
   // slower API but also returns data about actors/actresses
@@ -18,7 +17,7 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest){
     if(this.readyState === 4 && this.status == 200) {
 
       var data = JSON.parse(this.responseText);
-      console.log(data);
+
       if(data.Response == "True"){
 
         data.Search.map(function(a){
