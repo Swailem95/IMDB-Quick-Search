@@ -1,0 +1,6 @@
+{
+  "name": "IMDB Quick Search",
+  "tagline": "",
+  "body": "A small Chrome extension that shows movie/TV show suggestions in the search bar. Simply type in \"imdb\", hit space or enter and then search for any title. \r\n\r\nThis extension is currently not hosted on the Chrome Webstore so you will need to enable developer mode in Chrome to install it. \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
